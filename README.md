@@ -1,24 +1,32 @@
-# README
+Paypay Platform
+==============================================
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Environment
+----------------------------------------------
 
-Things you may want to cover:
+- Ruby version: `2.7.6`
+- Rails version: `2.7.6`
+- Ruby version manager: `rvm`
 
-* Ruby version
+Configuration
+----------------------------------------------
 
-* System dependencies
+- `bundle install`
+- `rails db:setup`
+- `rails db:seed`
 
-* Configuration
+Usage
+----------------------------------------------
 
-* Database creation
+1. `bundle exec rails server`
 
-* Database initialization
+2. Go to  http://127.0.0.1:3000/admin
 
-* How to run the test suite
+3. test admin user `user: admin@example.com pass: password`
 
-* Services (job queues, cache servers, search engines, etc.)
+Documentation
+----------------------------------------------
 
-* Deployment instructions
+* Ruby on rails: https://rubyonrails.org/
 
-* ...
+* Active Admin CMS: https://activeadmin.info/
